@@ -15,3 +15,10 @@
 /log/*
 !/log/.keep
 /tmp
+<<<<<<< HEAD
+=======
+.project
+.DS_Store
+.idea
+.secret
+>>>>>>> 9ec51b2c511d1b9082c52ece21220f38aa1e9f5e
