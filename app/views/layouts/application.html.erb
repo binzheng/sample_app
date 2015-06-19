@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
   <title><%= full_title(yield(:title))%></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -9,21 +8,8 @@
   <%= render 'layouts/shim'%>
 </head>
 <body>
-    <%= render 'layouts/header'%>
-	<div class="container">
-		<%= yield %>
-		<%= render 'layouts/footer'%>
-	</div>
-=======
-  <title>SampleApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
 <%= yield %>
 
->>>>>>> 9ec51b2c511d1b9082c52ece21220f38aa1e9f5e
 </body>
 </html>
